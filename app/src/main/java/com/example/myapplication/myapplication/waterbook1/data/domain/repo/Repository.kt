@@ -1,4 +1,4 @@
-package com.example.myapplication.myapplication.waterbook1.data.repo
+package com.example.myapplication.myapplication.waterbook1.data.domain.repo
 
 import com.example.myapplication.myapplication.waterbook1.data.api.RetrofitInstance
 

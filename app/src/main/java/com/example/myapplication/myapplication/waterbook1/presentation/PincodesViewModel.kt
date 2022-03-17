@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.myapplication.myapplication.waterbook1.commons.Resource
 import com.example.myapplication.myapplication.waterbook1.data.api.PincodesItem
-import com.example.myapplication.myapplication.waterbook1.data.repo.Repository
+import com.example.myapplication.myapplication.waterbook1.data.domain.repo.Repository
 import kotlinx.coroutines.launch
 import retrofit2.Response
 

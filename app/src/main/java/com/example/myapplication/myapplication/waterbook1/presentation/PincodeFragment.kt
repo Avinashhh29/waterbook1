@@ -7,17 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.myapplication.waterbook1.R
 import com.example.myapplication.myapplication.waterbook1.commons.Constant.PINCODE_PATTERN
 import com.example.myapplication.myapplication.waterbook1.commons.Resource
-import com.example.myapplication.myapplication.waterbook1.data.api.PincodesItem
-import com.example.myapplication.myapplication.waterbook1.data.repo.Repository
+import com.example.myapplication.myapplication.waterbook1.data.domain.repo.Repository
 import com.example.myapplication.myapplication.waterbook1.databinding.FragmentPincodeBinding
 import com.google.android.material.textfield.TextInputLayout
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.launch
 
 
 class PincodeFragment : Fragment(R.layout.fragment_pincode) {
